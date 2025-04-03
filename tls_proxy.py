@@ -12,9 +12,9 @@ Requirements:
 Usage:
 1. Install dependencies: pip install mitmproxy
 2. Create CA certificates: python tls_proxy.py --generate-ca
-2. Run the proxy: python tls_proxy.py
-3. Configure your client to use the proxy (default: 127.0.0.1:8080)
-4. Import the CA certificate (from ~/.mitmproxy/mitmproxy-ca-cert.pem) into your browser/client
+3. Run the proxy: python tls_proxy.py
+4. Configure your client to use the proxy (default: 127.0.0.1:8080)
+5. Import the CA certificate (from ~/.mitmproxy/mitmproxy-ca-cert.pem) into your browser/client
 """
 
 import os
